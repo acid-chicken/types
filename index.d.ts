@@ -82,4 +82,14 @@ declare global {
      */
     of<T1>(item1: T1): [T1]
   }
+
+  interface PromiseConstructor {
+    /**
+     * Creates a Promise that is resolved with an array of results when all of the provided Promises
+     * resolve, or rejected when any Promise is rejected.
+     * @param values An array of Promises.
+     * @returns A new Promise.
+     */
+    all<T1>(values: [T1 | PromiseLike<T1>]): Promise<[T1]>
+  }
 }
