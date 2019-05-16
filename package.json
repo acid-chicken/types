@@ -1,0 +1,23 @@
+{
+  "name": "@bemybaby/types",
+  "version": "0.0.0",
+  "description": "TypeScript type definition enhancer",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Acid Chicken (硫酸鶏)",
+      "email": "root@acid-chicken.com",
+      "url": "https://github.com/acid-chicken",
+      "githubUsername": "acid-chicken"
+    }
+  ],
+  "main": "",
+  "types": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bemybaby/types.git"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "typeScriptVersion": "3.4.5"
+}
